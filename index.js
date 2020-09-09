@@ -1,3 +1,10 @@
+
+if(sessionStorage.getItem('AuthenticationState')===null)
+{
+    alert("Please Login First!");
+    window.open('login.html','_self');
+}
+
 let currentPlayer='X';
 let xWins=0,oWins=0;
 
